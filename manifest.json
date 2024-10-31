@@ -7,7 +7,7 @@
     "default_icon": "icon.png"
   },
   "background": {
-    "service_worker": (jquery.min.js, taobao.js),
+    "service_worker": "jquery.min.js", "taobao.js",
     "persistent":true
   },
   "permissions": ["storage"],
