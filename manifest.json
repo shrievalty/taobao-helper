@@ -7,11 +7,11 @@
     "default_icon": "icon.png"
   },
   "background": {
-    "service_worker": "jquery.min.js", "taobao.js",
+    "service_worker":"jquery.min.js","taobao.js",
     "persistent":true
   },
   "permissions": ["storage"],
-  "content_scripts": [
+  "content_scripts":[
     {
       "matches": ["https://cart.taobao.com/*", "https://buy.taobao.com/*", "https://cart.tmall.com/*", "https://buy.tmall.com/*"],
       "js": ["jquery.min.js", "taobao.js"],
